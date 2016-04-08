@@ -18,6 +18,10 @@
 		F2F80C051CB6447B004BE556 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F80C041CB6447B004BE556 /* DetailViewController.swift */; };
 		F2F80C071CB648C4004BE556 /* Resturant.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F80C061CB648C4004BE556 /* Resturant.swift */; };
 		F2F80C091CB66894004BE556 /* AnimationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F80C081CB66894004BE556 /* AnimationViewController.swift */; };
+		F2F80C0B1CB73D48004BE556 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2F80C0A1CB73D48004BE556 /* MapKit.framework */; };
+		F2F80C0D1CB73E1C004BE556 /* MapViewControllerScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F80C0C1CB73E1C004BE556 /* MapViewControllerScene.swift */; };
+		F2F80C0F1CB73FC3004BE556 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F80C0E1CB73FC3004BE556 /* DetailTableViewCell.swift */; };
+		F2F80C111CB75D46004BE556 /* NewRestrantTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F80C101CB75D46004BE556 /* NewRestrantTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +59,10 @@
 		F2F80C041CB6447B004BE556 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		F2F80C061CB648C4004BE556 /* Resturant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resturant.swift; sourceTree = "<group>"; };
 		F2F80C081CB66894004BE556 /* AnimationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationViewController.swift; sourceTree = "<group>"; };
+		F2F80C0A1CB73D48004BE556 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F2F80C0C1CB73E1C004BE556 /* MapViewControllerScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewControllerScene.swift; sourceTree = "<group>"; };
+		F2F80C0E1CB73FC3004BE556 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DetailTableViewCell.swift; path = ../DetailTableViewCell.swift; sourceTree = "<group>"; };
+		F2F80C101CB75D46004BE556 /* NewRestrantTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewRestrantTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2F80C0B1CB73D48004BE556 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +94,7 @@
 		F2F80BC31CB62195004BE556 = {
 			isa = PBXGroup;
 			children = (
+				F2F80C0A1CB73D48004BE556 /* MapKit.framework */,
 				F2F80BCE1CB62195004BE556 /* SampleTable */,
 				F2F80BE61CB62195004BE556 /* SampleTableTests */,
 				F2F80BF11CB62195004BE556 /* SampleTableUITests */,
@@ -108,7 +118,10 @@
 				F2F80BCF1CB62195004BE556 /* AppDelegate.swift */,
 				F2F80BD11CB62195004BE556 /* ViewController.swift */,
 				F2F80C041CB6447B004BE556 /* DetailViewController.swift */,
+				F2F80C0E1CB73FC3004BE556 /* DetailTableViewCell.swift */,
 				F2F80BD31CB62195004BE556 /* Main.storyboard */,
+				F2F80C101CB75D46004BE556 /* NewRestrantTableViewController.swift */,
+				F2F80C0C1CB73E1C004BE556 /* MapViewControllerScene.swift */,
 				F2F80C081CB66894004BE556 /* AnimationViewController.swift */,
 				F2F80C061CB648C4004BE556 /* Resturant.swift */,
 				F2F80BD91CB62195004BE556 /* Assets.xcassets */,
@@ -206,6 +219,11 @@
 					F2F80BCB1CB62195004BE556 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = 27C5WE967V;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					F2F80BE21CB62195004BE556 = {
 						CreatedOnToolsVersion = 7.3;
@@ -273,9 +291,12 @@
 			files = (
 				F2F80BD81CB62195004BE556 /* SampleTable.xcdatamodeld in Sources */,
 				F2F80BD21CB62195004BE556 /* ViewController.swift in Sources */,
+				F2F80C0F1CB73FC3004BE556 /* DetailTableViewCell.swift in Sources */,
 				F2F80C071CB648C4004BE556 /* Resturant.swift in Sources */,
 				F2F80C091CB66894004BE556 /* AnimationViewController.swift in Sources */,
+				F2F80C111CB75D46004BE556 /* NewRestrantTableViewController.swift in Sources */,
 				F2F80BD01CB62195004BE556 /* AppDelegate.swift in Sources */,
+				F2F80C0D1CB73E1C004BE556 /* MapViewControllerScene.swift in Sources */,
 				F2F80C051CB6447B004BE556 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +522,7 @@
 				F2F80BF91CB62195004BE556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2F80BFA1CB62195004BE556 /* Build configuration list for PBXNativeTarget "SampleTableTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +531,7 @@
 				F2F80BFC1CB62195004BE556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F2F80BFD1CB62195004BE556 /* Build configuration list for PBXNativeTarget "SampleTableUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +540,7 @@
 				F2F80BFF1CB62195004BE556 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

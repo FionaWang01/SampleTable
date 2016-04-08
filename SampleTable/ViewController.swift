@@ -77,6 +77,10 @@ class ViewController: UIViewController {
             }
         }
     }
+    
+    @IBAction func close (segue:UIStoryboard){
+        
+    }
 
 }
 

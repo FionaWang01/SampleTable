@@ -16,9 +16,9 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     var resturantImage : UIImage?
     
-    @IBAction func close (segue:UIStoryboardSegue){
-        
-    }
+//    @IBAction func close (segue:UIStoryboardSegue){
+//        
+//    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -87,23 +87,21 @@ extension DetailViewController: UITableViewDelegate, UITableViewDataSource{
         return 4
     }
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("detailCell", forIndexPath: indexPath)
-        let fieldLabel = cell.viewWithTag(1000) as! UILabel
-        let valueLabl = cell.viewWithTag(2000) as! UILabel
+        let cell = tableView.dequeueReusableCellWithIdentifier("detailCell", forIndexPath: indexPath) as! DetailTableViewCell
         
         switch indexPath.row{
         case 0 :
-            fieldLabel.text = "Name"
-            valueLabl.text = restaurant.name
+            cell.FieldLabel.text = "Name"
+            cell.valueLabel.text = restaurant.name
         case 1 :
-            fieldLabel.text = "Loca"
-            valueLabl.text = restaurant.location
+            cell.FieldLabel.text = "Loca"
+            cell.valueLabel.text = restaurant.location
         case 2 :
-            fieldLabel.text = "Type"
-            valueLabl.text = restaurant.type
+            cell.FieldLabel.text = "Type"
+            cell.valueLabel.text = restaurant.type
         case 3 :
-            fieldLabel.text = "Here"
-            valueLabl.text  = (restaurant.isVisited) ? "I had visited " : "I have not been there"
+            cell.FieldLabel.text = "Here"
+            cell.valueLabel.text  = (restaurant.isVisited) ? "I had visited " : "I have not been there"
         default :
             print("not find item.")
         }
@@ -113,4 +111,5 @@ extension DetailViewController: UITableViewDelegate, UITableViewDataSource{
     func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
         return 60.0
     }
+
 }
