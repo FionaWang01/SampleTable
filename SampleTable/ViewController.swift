@@ -78,10 +78,6 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func close (segue:UIStoryboard){
-        
-    }
-
 }
 
 extension ViewController: UITableViewDelegate, UITableViewDataSource{

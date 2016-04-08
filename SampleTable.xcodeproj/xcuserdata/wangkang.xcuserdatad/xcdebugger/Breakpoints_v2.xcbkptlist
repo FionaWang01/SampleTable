@@ -2,4 +2,84 @@
 <Bucket
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SampleTable/NewRestrantTableViewController.swift"
+            timestampString = "481780370.330761"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "NewRestrantTableViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SampleTable.NewRestrantTableViewController.__deallocating_deinit"
+                  moduleName = "SampleTable"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wangkang/dev/Practice/SampleTable/SampleTable/NewRestrantTableViewController.swift"
+                  timestampString = "481780370.536745"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SampleTable.NewRestrantTableViewController.init (style : __C.UITableViewStyle) -&gt; SampleTable.NewRestrantTableViewController"
+                  moduleName = "SampleTable"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wangkang/dev/Practice/SampleTable/SampleTable/NewRestrantTableViewController.swift"
+                  timestampString = "481780370.538884"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "36">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SampleTable.NewRestrantTableViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; SampleTable.NewRestrantTableViewController"
+                  moduleName = "SampleTable"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wangkang/dev/Practice/SampleTable/SampleTable/NewRestrantTableViewController.swift"
+                  timestampString = "481780370.539056"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "76">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SampleTable.NewRestrantTableViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;SampleTable.NewRestrantTableViewController&gt;"
+                  moduleName = "SampleTable"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/wangkang/dev/Practice/SampleTable/SampleTable/NewRestrantTableViewController.swift"
+                  timestampString = "481780370.539211"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
